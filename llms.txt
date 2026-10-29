@@ -1,0 +1,9 @@
+# jpe-ansible
+
+Repository index for the jpe-ansible GitHub organization.
+
+## Repositories
+
+- [.github](https://github.com/jpe-ansible/.github): Organization profile
+- [ansible-ai-agents](https://github.com/jpe-ansible/ansible-ai-agents): Ansible collection for AI agent hosts
+- [ansible-nautobot](https://github.com/jpe-ansible/ansible-nautobot): Ansible collection for Nautobot: server, sync, pre-flight and drift roles.
