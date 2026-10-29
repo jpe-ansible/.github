@@ -25,3 +25,17 @@ Full architecture and how these fit the bigger picture:
 [VCT Cribl](https://github.com/vct-cribl) (Edge-ucation) ·
 [VCT Splunk](https://github.com/vct-splunk) (Splunk it like it's hot) ·
 [JacobPEvans HQ](https://github.com/JacobPEvans) (the front door)
+
+<!-- org-index:start -->
+## Repositories
+
+### Other
+
+- [.github](https://github.com/jpe-ansible/.github): Organization profile
+- [ansible-ai-agents](https://github.com/jpe-ansible/ansible-ai-agents): Ansible collection for AI agent hosts
+- [ansible-nautobot](https://github.com/jpe-ansible/ansible-nautobot): Ansible collection for Nautobot: server, sync, pre-flight and drift roles.
+
+## Archived repositories (0)
+
+_No archived repositories._
+<!-- org-index:end -->
