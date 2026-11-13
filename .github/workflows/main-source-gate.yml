@@ -1,0 +1,13 @@
+# Required workflow: the org-main-source-gate organization ruleset runs it on every pull request into main of a
+# git-flow repository of this organization. The name differs from the shared workflow's, so a run required by an
+# enterprise ruleset never shares its concurrency group.
+name: Org Main Source Gate
+
+on:
+  pull_request:
+
+permissions: {}
+
+jobs:
+  main-source-gate:
+    uses: JacobPEvans/.github/.github/workflows/main-source-gate.yml@v1

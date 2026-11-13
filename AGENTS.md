@@ -13,8 +13,9 @@ operations, including synchronization, readiness, and drift tasks.
 - Give each repository exactly one `release.yml` caller for its release
   workflow.
 - Configure Renovate to extend only `github>JacobPEvans/.github`.
-- Enterprise rulesets inject required checks. Do not add repository copies of
-  shared checks.
+- Enterprise and organization rulesets inject required checks. The
+  organization rulesets run `disclosure-gate.yml` and `main-source-gate.yml`
+  from this repository. Do not add repository copies of shared checks.
 
 ## Domain conventions
 
