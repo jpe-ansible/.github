@@ -1,0 +1,17 @@
+# Required workflow: the org-disclosure-gate organization ruleset runs it on every pull request into a public
+# repository of this organization. It runs in the target repository, so `secrets: inherit` passes this
+# organization's secrets.
+name: Disclosure Gate
+
+on:
+  pull_request:
+
+permissions: {}
+
+jobs:
+  disclosure-gate:
+    uses: JacobPEvans/.github/.github/workflows/_disclosure-gate.yml@v1
+    permissions:
+      contents: read
+      pull-requests: read
+    secrets: inherit
