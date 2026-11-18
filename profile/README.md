@@ -31,9 +31,15 @@ Full architecture and how these fit the bigger picture:
 
 ### Other
 
+- [.agents](https://github.com/jpe-ansible/.agents): Organization-wide agent skills
 - [.github](https://github.com/jpe-ansible/.github): Organization profile
 - [ansible-ai-agents](https://github.com/jpe-ansible/ansible-ai-agents): Ansible collection for AI agent hosts
 - [ansible-nautobot](https://github.com/jpe-ansible/ansible-nautobot): Ansible collection for Nautobot: server, sync, pre-flight and drift roles.
+- [ansible-productivity-apps](https://github.com/jpe-ansible/ansible-productivity-apps): Ansible project for productivity apps (topics: ansible)
+- [ansible-secrets-management](https://github.com/jpe-ansible/ansible-secrets-management): Ansible collection for OpenBao and Authelia
+- [ansible-youtrack](https://github.com/jpe-ansible/ansible-youtrack): Ansible collection for YouTrack configuration (topics: ansible, ansible-collection,
+  youtrack)
+- [homelab-contracts](https://github.com/jpe-ansible/homelab-contracts): Versioned JSON Schemas for the dryvist homelab inventory contract
 
 ## Archived repositories (0)
 
