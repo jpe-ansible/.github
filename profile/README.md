@@ -37,9 +37,14 @@ Full architecture and how these fit the bigger picture:
 - [ansible-nautobot](https://github.com/jpe-ansible/ansible-nautobot): Ansible collection for Nautobot: server, sync, pre-flight and drift roles.
 - [ansible-productivity-apps](https://github.com/jpe-ansible/ansible-productivity-apps): Ansible project for productivity apps (topics: ansible)
 - [ansible-secrets-management](https://github.com/jpe-ansible/ansible-secrets-management): Ansible collection for OpenBao and Authelia
+- [ansible-splunk](https://github.com/jpe-ansible/ansible-splunk): Ansible role for deploying and configuring Splunk Enterprise - includes HEC input, indexes,
+  apps, and multi-disk storage with Doppler secrets integration (topics: ansible, automation, devops, enterprise, infrastructure-as-code, log-management,
+  logging, monitoring, observability, security, siem, splunk)
 - [ansible-youtrack](https://github.com/jpe-ansible/ansible-youtrack): Ansible collection for YouTrack configuration (topics: ansible, ansible-collection,
   youtrack)
 - [homelab-contracts](https://github.com/jpe-ansible/homelab-contracts): Versioned JSON Schemas for the dryvist homelab inventory contract
+- [tofu-semaphore](https://github.com/jpe-ansible/tofu-semaphore): OpenTofu for the Semaphore UI object graph: projects, repositories, inventories,
+  environments, templates, schedules and views. (topics: ansible, opentofu, semaphore)
 
 ## Archived repositories (0)
 
