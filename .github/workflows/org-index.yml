@@ -10,7 +10,7 @@ permissions: {}
 jobs:
   org-index:
     permissions: {}
-    uses: JacobPEvans/.github/.github/workflows/_org-index.yml@0a77d6617231b32b4d57ee08f8d92c2197647009 # v1.62.0
+    uses: JacobPEvans/.github/.github/workflows/_org-index.yml@d56b3502218723ed027bdd19d163879542d6ef94 # v1.63.0
     with:
       visibility_scope: public
     secrets:
